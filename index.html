@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario de Vacunación CLM</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="cambio-color">
+        <div class="header">
+            <!-- logo jccm -->
+            <img class="logo-1" src="img/logo-clm.png" alt="Logo Junta de Comunidades de Castilla la Mancha">
+            <!-- título de la página -->
+            <h1>Calendario de Vacunación Infantil</h1>
+            <!-- Logo Sescam -->
+            <img class="logo-2" src="img/logos_sescam.png" alt="Logo Junta del Servicio de Salud de Castilla la Mancha">
+        </div>
+    </div>
+
+<div>
+    <button onclick="window.print()" accesskey="p">Imprimir</button>
+</div>
+    <!-- Icono de accesibilidad -->
+    <div class="icono-accesibilidad" onclick="mostrarOcultar()" accesskey="a">
+        <img src="img/icono-accesible.svg" alt="Icono Accesible">
+    </div>
+
+    <!-- Barra lateral de accesibilidad  -->
+    <div class="accesibilidad">
+        <h2>Accesibilidad</h2>
+        <button id="aumentar">Aumentar Fuente</button>
+        <button id="reducir">Reducir Fuente</button>
+        <button id="escalaGrises">Escala de Grises</button>
+        <button id="altoContraste">Alto Contraste</button>
+        <button id="restablecer">Restablecer </button>
+    </div>
+
+
+    <!-- Opciones para visualizar las vacunas -->
+    <section class="desplegable">
+
+        <div class="mitad">
+            <h3>Indica la edad del paciente</h3>
+
+            <select name="edad" id="edad">
+                <option value="">-- Edad -- </option>
+            </select>
+
+            <p id="resultEdad"></p>
+            <p id="resultVac"></p>
+        </div>
+        <div class="mitad imagen-fondo"></div>
+    </section>
+
+    <!-- O T R O S -->
+    <section class="otros-datos">
+        <h3>OTROS DATOS</h3>
+
+        <div class="desplegable">
+            <div>
+                <h4>Datos 1</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio qui quibusdam </p>
+            </div>
+
+            <div>
+                <h4>Datos 2</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio qui quibusdam </p>
+            </div>
+
+            <div>
+                <h4>Datos 3</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio qui quibusdam </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="pie">
+        <img src="img/jccm copia.png" alt="Logo Castilla La Mancha">
+    </footer>
+
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

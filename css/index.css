@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+/* H E A D E R */
+.cambio-color{
+    background: rgba(246, 244, 244, 0.63);
+    width: 100%;
+    box-shadow: 0 0px 3px 0 rgba(100, 100, 100, 0.8);
+    box-sizing: border-box;
+}
+
+.header{
+    color: #005196;
+    font-size: 1.0em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 95px;
+
+}
+
+.logo-1{
+    width: 130px;
+}
+
+.logo-2{
+    width: 70px;
+}
+
+
+
+/* A C C E S I B I L I D A D */
+
+.accesibilidad{
+    position: fixed;
+    top: 100;
+    right: -220px;
+    background-color: #005196;
+    color: azure;
+    padding: 20px;
+    width: 200px;
+    box-shadow: -4px 0 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: right 0.3s ease;
+}
+
+.accesibilidad h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.accesibilidad button{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.icono-accesibilidad{
+    position: absolute;
+    top: 70%;
+    right: 10px;
+    background: #005196;
+    border-radius: 6px;
+    transition: right 0.3s ease;
+}
+
+.icono-accesibilidad:hover{
+    cursor: pointer;
+    background: #4d4d4d;
+}
+
+.accesibilidad.mostrar{
+    right: 0;
+}
+
+.icono-accesibilidad.mostrar{
+    right: 200px;
+}
+
+
+/* DESPLEGABLE */
+.desplegable{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    align-items: center;
+}
+.desplegable img{
+    position: absolute;
+    width: 40%;
+}
+
+.mitad{
+    width: 49%;
+}
+
+.imagen-fondo{
+    background-image: url(../img/calendario_vacunacion.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h3{
+    font-size: 30px;
+    color: #383838;
+}
+
+p{
+    font-size: 17px; 
+    color: #383838;   
+}
+
+select{
+    background: #fff;
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.option{
+    width: 50%;
+}
+
+.otros-datos{
+    width: 95%;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+.otros-datos h3{
+    text-align: center;
+    color:  #005196;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.otros-datos div{
+    padding: 10px;
+    margin-top: 0;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.pie{
+    background-color: #005196;
+    color: azure;
+    margin-top: 60px;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pie img{
+    width: 7%;
+
+}
